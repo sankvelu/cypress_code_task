@@ -9,7 +9,7 @@ describe('login/logout functionalities for a Bynder portal.', () => {
   before(function () {
     cy.fixture('example').then(function (loginData) {
       data = loginData;
-      cy.log(data);
+      
     });
   });
 
